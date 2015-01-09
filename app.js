@@ -249,7 +249,7 @@ app.get('/admin/list',function(req, res){
 })
 
 // list delete movie
-app.delete('/admin/list', function(res, req){
+app.delete('/admin/list', function(req, res){
 	var id = req.query.id
 
 	if (id){
